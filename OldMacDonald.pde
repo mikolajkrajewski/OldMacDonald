@@ -1,6 +1,6 @@
-
-void setup()
+Farm skywalker;
+public void setup()
 {
-	//your variable declarations here
+	skywalker = new Farm();
+	skywalker.animalSounds();
 }
-
